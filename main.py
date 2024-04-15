@@ -22,7 +22,7 @@ class YourKivyApp(App):
     def __init__(self, **kwargs):
         super(YourKivyApp, self).__init__(**kwargs)
         self.logger = Logger.get_logger('gemini_vision_pro.log')
-        self.api_key = 'AIzaSyDHwJ55h9cl3ZBuXEEKOfwAL4nN1PfdoRY' #AIzaSyAhj0U2x_6dU9ng_strnaGl_ifrN-rIuoY'  # Set your API key here
+        self.api_key = 'XXXXXXXXXXXXXXXXXXX'  # Set your API key here
         self.temperature = 0.1
         self.top_k = 32
         self.top_p = 1.0
