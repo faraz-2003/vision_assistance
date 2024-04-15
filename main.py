@@ -6,10 +6,10 @@ from kivy.uix.camera import Camera
 from kivy.graphics.texture import Texture
 from kivy.uix.label import Label
 from kivy.uix.widget import Widget
-from libs.logger import Logger
-from libs.gemini_vision import GeminiVision
-from libs.speech import SpeechToText
-from libs.voice import TextToSpeech
+from logger import Logger
+from gemini_vision import GeminiVision
+from speech import SpeechToText
+from voice import TextToSpeech
 import cv2
 import numpy as np
 from PIL import Image as ig
